@@ -1,17 +1,12 @@
 import csv
-import datetime
 
-def log_task_completion():
+def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
     section = input("Enter the section/task (e.g., boysBath, upHallDry, gym1Wet): ")
-    taskNumber = int(input("Enter the task number: "))
-    date = input("Enter the date completed in YYYY-MM-DD format: ")
+    task_number = int(input("Enter the task number: "))
     size = int(input("Enter the square footage of the section cleaned: "))
-    duration = input("Enter time to complete task in Hours:Minutes:Seconds format: ")
-    dirtLevel = int(input("Enter 'dirtyness' level from 1-10, 10 being the dirtiest: "))
+    duration = int(input("Enter time to complete task in Hours:Minutes:Seconds format: "))
+    dirt_level = int(input("Enter 'dirtiness' level from 1-10, 10 being the dirtiest: "))
     gloves = int(input("How many pairs of gloves did you go through?: "))
-    weatherTemp = int(input("What was the temperature outside in Fahrenheit?: "))
-    weatherCond = input("What were weather conditions like? (e.g. sunny, cloudy, rain, snow): ")
-    moonPhase = input("By illumination percentage, what is the moon phase?: ")
     
     with open('task_completion_log.csv', 'a', newline='') as csvfile:
         fieldnames = [
@@ -25,22 +20,31 @@ def log_task_completion():
             'Weather Temp', 
             'Weather Conditions', 
             'Moon Phase',
-            ]
+        ]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         if csvfile.tell() == 0:  # Write header only if the file is empty
             writer.writeheader()
         writer.writerow({
             'Date': date,
             'Section': section,
-            'Task Number': taskNumber,
+            'Task Number': task_number,
             'Size': size,
             'Duration': str(duration),
-            'Dirt Level': dirtLevel,
+            'Dirt Level': dirt_level,
             'Gloves': gloves,
-            'Weather Temp': weatherTemp,
-            'Weather Conditions': weatherCond,
-            'Moon Phase': moonPhase,
+            'Weather Temp': weather_temp,
+            'Weather Conditions': weather_conditions,
+            'Moon Phase': moon_phase,
         })
 
-# Example usage
-log_task_completion()
+# Get common inputs for the day
+date = input("Enter the date in YYYY-MM-DD format: ")
+weather_temp = int(input("Enter the temperature outside in Fahrenheit: "))
+weather_conditions = input("Enter the weather conditions (e.g., sunny, cloudy, rain, snow): ")
+moon_phase = input("Enter the moon phase by illumination percentage: ")
+
+# Log task completion for each section/task
+num_sections = 28  # You can change this number based on your actual requirement
+
+for _ in range(num_sections):
+    log_task_completion(date, weather_temp, weather_conditions, moon_phase)
