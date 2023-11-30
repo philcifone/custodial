@@ -8,8 +8,14 @@ df = pd.read_csv('task_completion_log.csv')
 # Convert the 'Date' column to datetime format
 df['Date'] = pd.to_datetime(df['Date'])
 
+# Set variable for date
+csv_date = df['Date'].max().strftime("%Y-%m-%d")
+
 # Convert the 'Duration' column to timedelta
 df['Duration'] = pd.to_timedelta(df['Duration'])
+
+# Get the order of sections based on the minimum 'Task Number'
+section_order = df.groupby('Section')['Task Number'].min().sort_values().index
 
 # Plotting examples
 fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 8))
@@ -28,7 +34,7 @@ fig.suptitle('Daily Task Completion Analysis')
 #axes[0, 1].set_ylabel('Average Duration')
 df['Duration_minutes'] = df['Duration'].dt.total_seconds() / 60
 df.plot(x='Section', y='Duration_minutes', kind='bar', ax=axes[0, 0], color='skyblue', legend=False)
-axes[0, 0].set_title('Duration of Tasks per Day')
+axes[0, 0].set_title(f'Duration of Tasks per Day - {csv_date}')
 axes[0, 0].set_xlabel('Section')
 axes[0, 0].set_ylabel('Duration (minutes)')
 
@@ -39,7 +45,7 @@ axes[0, 0].set_ylabel('Duration (minutes)')
 #axes[1, 0].set_ylabel('Frequency')
 # Plot 3: Dirt levels per task
 df.plot(x='Section', y='Dirt Level', kind='bar', ax=axes[1, 0], color='green', legend=False)
-axes[1, 0].set_title('Dirt Levels per Task')
+axes[1, 0].set_title(f'Dirt Levels per Task - {csv_date}')
 axes[1, 0].set_xlabel('Section')
 axes[1, 0].set_ylabel('Dirt Level')
 
@@ -48,7 +54,7 @@ axes[1, 0].set_ylabel('Dirt Level')
 #axes[1, 1].set_title('Distribution of Gloves Used per Task')
 #axes[1, 1].set_xlabel('Number of Gloves')
 df.plot(x='Section', y='Gloves', kind='bar', ax=axes[1, 1], color='purple', legend=False)
-axes[1, 1].set_title('Gloves Used per Task')
+axes[1, 1].set_title(f'Gloves Used per Task - {csv_date}')
 axes[1, 1].set_xlabel('Section')
 axes[1, 1].set_ylabel('Number of Gloves')
 
@@ -59,8 +65,8 @@ df['Duration_per_sqft'] = df['Duration'] / df['Size']
 # Convert Timedelta to seconds
 df['Duration_per_sqft'] = df['Duration_per_sqft'].dt.total_seconds()
 # Actual Plot
-df.groupby('Section')['Duration_per_sqft'].mean().plot(kind='bar', ax=axes[0, 1], color='orange', edgecolor='black')
-axes[0, 1].set_title('Average Duration per Square Foot per Section')
+df.groupby('Section')['Duration_per_sqft'].mean().loc[section_order].plot(kind='bar', ax=axes[0, 1], color='orange', legend=False)
+axes[0, 1].set_title(f'Average Duration per Square Foot per Section - {csv_date}')
 axes[0, 1].set_xlabel('Section')
 axes[0, 1].set_ylabel('Average Duration per Square Foot')
 
