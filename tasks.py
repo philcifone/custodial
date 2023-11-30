@@ -1,12 +1,14 @@
 import csv
 
 def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
-    section = input("Enter the section/task (e.g., boysBath, upHallDry, gym1Wet): ")
+    section = input("Enter the section/task (e.g., boysBath, upHallDryMop, gym1WetMop): ")
     task_number = int(input("Enter the task number: "))
     size = int(input("Enter the square footage of the section cleaned: "))
-    duration = int(input("Enter time to complete task in Hours:Minutes:Seconds format: "))
+    duration = input("Enter time to complete task in Hours:Minutes:Seconds format: ")
     dirt_level = int(input("Enter 'dirtiness' level from 1-10, 10 being the dirtiest: "))
     gloves = int(input("How many pairs of gloves did you go through?: "))
+    supplies = input("Did any supplies need restocked? (e.g. 1 paperTowel): ")
+    notes = input("Any notes regarding the task?: ")
     
     with open('task_completion_log.csv', 'a', newline='') as csvfile:
         fieldnames = [
@@ -17,6 +19,8 @@ def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
             'Duration', 
             'Dirt Level', 
             'Gloves', 
+            'Supplies',
+            'Notes',
             'Weather Temp', 
             'Weather Conditions', 
             'Moon Phase',
@@ -32,6 +36,8 @@ def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
             'Duration': str(duration),
             'Dirt Level': dirt_level,
             'Gloves': gloves,
+            'Supplies' : supplies,
+            'Notes' : notes,
             'Weather Temp': weather_temp,
             'Weather Conditions': weather_conditions,
             'Moon Phase': moon_phase,
@@ -44,7 +50,7 @@ weather_conditions = input("Enter the weather conditions (e.g., sunny, cloudy, r
 moon_phase = input("Enter the moon phase by illumination percentage: ")
 
 # Log task completion for each section/task
-num_sections = 28  # You can change this number based on your actual requirement
+num_sections = 28  # Change based on total task numbers for the day
 
 for _ in range(num_sections):
     log_task_completion(date, weather_temp, weather_conditions, moon_phase)
