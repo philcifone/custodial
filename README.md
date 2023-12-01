@@ -13,14 +13,14 @@
 - supplies
 
 ### currently have graphs for:
-- daily glove count (general analysis)
-- average duration of task per section (general analysis)
-- dirt level per section (general analysis)
-- duration per square foot per section (general analysis)
-- average dirt levels by weekday
-- daily average task duration
-- dirt level distribution
-- daily average dirt level
+- daily glove count (generalAnalysis.py)
+- average duration of task per section (generalAnalysis.py, durationPerSection.py)
+- dirt level per section (generalAnalysis.py)
+- duration per square foot per section (generalAnalysis.py, squareFootDuration.py)
+- average dirt levels by weekday (dirtLevelsWeekdays.py)
+- daily average task duration (dailyAverageTaskDuration.py)
+- dirt level distribution (dirtLevelDist.py)
+- daily average dirt level (dailyAverageDirtLevel.py)
 
 ### make graphs for:
 
