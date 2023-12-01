@@ -18,18 +18,12 @@ df['Duration'] = pd.to_timedelta(df['Duration'])
 fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 8))
 fig.suptitle('Section Analysis')
 
-# Plot 1: Total gloves used per day
-df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Gloves'].sum().plot(kind='bar', color='purple', ax=axes[0, 0])
-axes[0, 0].set_xlabel('Date')
-axes[0, 0].set_ylabel('Total Gloves Used')
-
-
-# Plot 2: Average duration of tasks per section
+# Plot 1: Average duration of tasks per section
 df['Duration'] = pd.to_timedelta(df['Duration'])
-df.groupby('Section')['Duration'].mean().dt.total_seconds().div(60).plot(ax=axes[1, 1], kind='bar', color='purple')
-axes[1, 1].set_title('Average Duration of Tasks per Section')
-axes[1, 1].set_xlabel('Section')
-axes[1, 1].set_ylabel('Time in minutes')
+df.groupby('Section')['Duration'].mean().dt.total_seconds().div(60).plot(ax=axes[0, 0], kind='bar', color='blue')
+axes[0, 0].set_title('Average Duration of Tasks per Section')
+axes[0, 0].set_xlabel('Section')
+axes[0, 0].set_ylabel('Time in minutes')
 
 # Plot 3: Dirt level distribution
 #df['Dirt Level'].plot(ax=axes[1, 0], kind='hist', bins=10, color='green', edgecolor='black')
@@ -37,14 +31,14 @@ axes[1, 1].set_ylabel('Time in minutes')
 #axes[1, 0].set_xlabel('Dirt Level')
 #axes[1, 0].set_ylabel('Frequency')
 
-# Plot 3: Dirt levels per task
+# Plot 2: Dirt levels per task
 df.groupby('Section')['Dirt Level'].mean().plot(ax=axes[1, 0], kind='bar', color='green')
 axes[1, 0].set_title('Dirt Levels per Task')
 axes[1, 0].set_xlabel('Section')
 axes[1, 0].set_ylabel('Dirt Level')
 #axes[1, 0].tick_params(axis='x', rotation=90)
 
-# Plot 5: Duration per square foot per section
+# Plot 3: Duration per square foot per section
 # Calculate duration per square foot
 df['Duration_per_sqft'] = df['Duration'] / df['Size']
 
@@ -55,6 +49,12 @@ df.groupby('Section')['Duration_per_sqft'].mean().plot(kind='bar', ax=axes[0, 1]
 axes[0, 1].set_title(f'Average Duration per Square Foot per Section')
 axes[0, 1].set_xlabel('Section')
 axes[0, 1].set_ylabel('Time in minutes')
+
+# Plot 4: Total gloves used per day
+df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Gloves'].sum().plot(kind='bar', color='purple', ax=axes[1, 1])
+axes[1, 1].set_title('Pairs of Gloves Used Each Day')
+axes[1, 1].set_xlabel('Date')
+axes[1, 1].set_ylabel('Total Gloves Used')
 
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
