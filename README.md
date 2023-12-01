@@ -22,7 +22,13 @@
 - dirt level distribution (dirtLevelDist.py)
 - daily average dirt level (dailyAverageDirtLevel.py)
 
-### make graphs for:
+### to do:
+
+- better padding/formatting for stand alone graphs
+
+#### graphs to make:
+
+- dual graphs? temp vs dirt levels? 
 
 
 
