@@ -21,6 +21,7 @@ def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
             'Gloves', 
             'Supplies',
             'Notes',
+            'Steps',
             'Weather Temp', 
             'Weather Conditions', 
             'Moon Phase',
@@ -38,6 +39,7 @@ def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
             'Gloves': gloves,
             'Supplies' : supplies,
             'Notes' : notes,
+            'Steps' : steps,
             'Weather Temp': weather_temp,
             'Weather Conditions': weather_conditions,
             'Moon Phase': moon_phase,
@@ -45,6 +47,7 @@ def log_task_completion(date, weather_temp, weather_conditions, moon_phase):
 
 # Get common inputs for the day
 date = input("Enter the date in YYYY-MM-DD format: ")
+steps = input("How many steps did you take today?: ")
 weather_temp = int(input("Enter the temperature outside in Fahrenheit: "))
 weather_conditions = input("Enter the weather conditions (e.g., sunny, cloudy, rain, snow): ")
 moon_phase = input("Enter the moon phase by illumination percentage: ")
