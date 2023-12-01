@@ -20,5 +20,6 @@
 
 ### make graphs for:
 - daily dirt level
-- daily average duration
+- average dirt level distribution
+- daily average task duration
 
