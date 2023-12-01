@@ -1,11 +1,11 @@
 # custodial
 
-## data analysis of custodial duties at an average sized middle school
+## data analysis of nighttime custodial duties at an average sized middle school
 
 ### capturing data points:
 - outside weather
 - personal step count
-- moon phase (just for fun)
+- moon illumination percentage
 - section/task
 - duration
 - dirt level (personal judgement)
