@@ -16,7 +16,7 @@ df['Duration'] = pd.to_timedelta(df['Duration'])
 
 # Plotting examples
 fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(12, 8))
-fig.suptitle('Daily Task Completion Analysis')
+fig.suptitle('Section Analysis')
 
 # Plot 1: Total gloves used per day
 df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Gloves'].sum().plot(kind='bar', color='purple', ax=axes[0, 0])
