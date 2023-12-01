@@ -25,13 +25,7 @@ axes[0, 0].set_title('Average Duration of Tasks per Section')
 axes[0, 0].set_xlabel('Section')
 axes[0, 0].set_ylabel('Time in minutes')
 
-# Plot 3: Dirt level distribution
-#df['Dirt Level'].plot(ax=axes[1, 0], kind='hist', bins=10, color='green', edgecolor='black')
-#axes[1, 0].set_title('Distribution of Dirt Levels')
-#axes[1, 0].set_xlabel('Dirt Level')
-#axes[1, 0].set_ylabel('Frequency')
-
-# Plot 2: Dirt levels per task
+# Plot 2b: Dirt levels per task
 df.groupby('Section')['Dirt Level'].mean().plot(ax=axes[1, 0], kind='bar', color='green')
 axes[1, 0].set_title('Dirt Levels per Task')
 axes[1, 0].set_xlabel('Section')
