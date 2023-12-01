@@ -13,13 +13,17 @@
 - supplies
 
 ### currently have graphs for:
-- daily glove count
-- average duration of task per section
-- dirt level per section
-- duration per square foot per section
+- daily glove count (general analysis)
+- average duration of task per section (general analysis)
+- dirt level per section (general analysis)
+- duration per square foot per section (general analysis)
+- average dirt levels by weekday
+- daily average task duration
+- dirt level distribution
+- daily average dirt level
 
 ### make graphs for:
-- daily dirt level
-- average dirt level distribution
-- daily average task duration
+
+
+
 
