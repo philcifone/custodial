@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the data from the CSV file
-df = pd.read_csv('task_completion_log.csv')
+df = pd.read_csv('../custodial/task_completion_log.csv')
 
 # Convert the 'Date' column to datetime format
 df['Date'] = pd.to_datetime(df['Date'])

@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the data from the CSV file
-df = pd.read_csv('task_completion_log.csv')
+df = pd.read_csv('../custodial/task_completion_log.csv')
 
 # Plotting example for Dirt Level distribution
 fig, ax = plt.subplots(figsize=(8, 6))
