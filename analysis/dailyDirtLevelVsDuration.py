@@ -16,15 +16,15 @@ fig, ax1 = plt.subplots(figsize=(10, 6))
 fig.suptitle('Daily Duration and Dirt Levels')
 
 # Plot 1: Daily average task duration
-df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Duration'].mean().dt.total_seconds().div(60).plot(kind='bar', color='orange', ax=ax1, label='Duration')
+df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Dirt Level'].mean().plot(kind='bar', color='orange', ax=ax1, label='Dirt Level')
 ax1.set_xlabel('Date')
-ax1.set_ylabel('Average Task Duration (minutes)', color='orange')
+ax1.set_ylabel('Average Dirt Level', color='orange')
 ax1.tick_params(axis='y', labelcolor='orange')
 
 # Create a second y-axis for dirt levels
 ax2 = ax1.twinx()
-df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Dirt Level'].mean().plot(kind='line', marker='o', color='green', ax=ax2, label='Dirt Level')
-ax2.set_ylabel('Average Dirt Level', color='green')
+df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Duration'].mean().dt.total_seconds().div(60).plot(kind='line', marker='o', color='green', ax=ax2, label='Duration')
+ax2.set_ylabel('Average Duration', color='green')
 ax2.tick_params(axis='y', labelcolor='green')
 
 # Adjust layout for better appearance
