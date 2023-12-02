@@ -42,13 +42,13 @@ df['Duration_per_sqft'] = df['Duration_per_sqft'].dt.total_seconds()
 df.groupby('Section')['Duration_per_sqft'].mean().plot(kind='bar', ax=axes[0, 1], color='orange', legend=False)
 axes[0, 1].set_title(f'Average Duration per Square Foot per Section')
 axes[0, 1].set_xlabel('Section')
-axes[0, 1].set_ylabel('Time in minutes')
+axes[0, 1].set_ylabel('Time in Seconds')
 
 # Plot 4: Total gloves used per day
 df.groupby(df['Date'].dt.strftime('%Y-%m-%d'))['Gloves'].sum().plot(kind='bar', color='purple', ax=axes[1, 1])
 axes[1, 1].set_title('Pairs of Gloves Used Each Day')
 axes[1, 1].set_xlabel('Date')
-axes[1, 1].set_ylabel('Total Gloves Used')
+axes[1, 1].set_ylabel('Total Pairs of Gloves Used')
 
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
