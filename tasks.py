@@ -53,7 +53,7 @@ weather_conditions = input("Enter the weather conditions (e.g., sunny, cloudy, r
 moon_phase = input("Enter the moon phase by illumination percentage: ")
 
 # Log task completion for each section/task
-num_sections = 28  # Change based on total task numbers for the day
+num_sections = 22  # Change based on total task numbers for the day
 
 for _ in range(num_sections):
     log_task_completion(date, weather_temp, weather_conditions, moon_phase)
