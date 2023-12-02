@@ -24,8 +24,6 @@
 
 ### to do:
 
-- better padding/formatting for stand alone graphs
-
 #### graphs to make:
 
 - dual graphs:
