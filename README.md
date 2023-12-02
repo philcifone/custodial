@@ -30,7 +30,7 @@
 
 - dual graphs:
     - gloves vs dirt level
-    - weather donditions vs task count
+    - weather conditions vs task count
     - moon phase vs dirt level
     - task count vs section
     - task count vs day of week
