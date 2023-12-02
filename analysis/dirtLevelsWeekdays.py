@@ -19,4 +19,5 @@ df.groupby('DayOfWeek')['Dirt Level'].mean().plot(kind='bar', color='green', ax=
 ax.set_xlabel('Day of Week')
 ax.set_ylabel('Average Dirt Level')
 
+plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()

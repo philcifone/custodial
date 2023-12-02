@@ -34,4 +34,5 @@ plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 ax1.legend(loc='upper left')
 ax2.legend(loc='upper right')
 
+plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()

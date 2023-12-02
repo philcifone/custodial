@@ -22,5 +22,4 @@ ax.set_ylabel('Average Task Duration (minutes)')
 
 # Adjust layout for better appearance
 plt.tight_layout(rect=[0, 0.03, 1, 0.95])
-
 plt.show()

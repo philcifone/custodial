@@ -13,4 +13,5 @@ df['Dirt Level'].plot(kind='hist', bins=10, color='green', edgecolor='black', ax
 ax.set_xlabel('Dirt Level')
 ax.set_ylabel('Frequency')
 
+plt.tight_layout(rect=[0, 0.03, 1, 0.95])
 plt.show()
