@@ -28,7 +28,12 @@
 
 #### graphs to make:
 
-- dual graphs? temp vs dirt levels? 
+- dual graphs:
+    - gloves vs dirt level
+    - weather donditions vs task count
+    - moon phase vs dirt level
+    - task count vs section
+    - task count vs day of week
 
 
 
