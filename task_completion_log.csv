@@ -1,81 +1,81 @@
 Date,Area,Task,Task Number,Size,Duration,Dirt Level,Gloves,Supplies,Notes,Steps,Weather Temp,Weather Conditions,Moon Phase
-2023-11-29,boys,bathroom,1,132,00:10:22,3,1,1 paperTowel,clogged toilet,17337,32,sunny,94
-2023-11-29,girls,bathroom,2,132,00:08:34,3,1,1 paperTowel,no,17337,32,sunny,94
-2023-11-29,upHall,dryMop,3,2336,00:05:57,5,0,no,no,17337,32,sunny,94
-2023-11-29,copyRoom,all,4,192,00:02:20,2,0,no,no,17337,32,sunny,94
-2023-11-29,class1,all,5,1536,00:04:30,2,0,no,no,17337,32,sunny,94
-2023-11-29,class2,all,6,768,00:15:02,3,0,no,no,17337,32,sunny,94
-2023-11-29,class3,all,7,768,00:12:58,3,0,no,no,17337,32,sunny,94
-2023-11-29,gym1,dryMop,8,5120,00:07:38,3,0,no,no,17337,32,sunny,94
-2023-11-29,downHall,dryMop,9,2336,00:05:57,2,0,no,no,17337,32,sunny,94
-2023-11-29,girlsLocker,dryMop,10,1704,00:03:21,1,0,no,no,17337,32,sunny,94
-2023-11-29,girlsLocker,bathroom,11,94,00:00:57,1,0,no,no,17337,32,sunny,94
-2023-11-29,girlsLocker,office,12,166,00:01:51,1,0,no,no,17337,32,sunny,94
-2023-11-29,stair2,sweep,13,256,00:05:14,4,1,no,no,17337,32,sunny,94
-2023-11-29,gym3,matRoll,14,1024,00:07:27,1,0,no,no,17337,32,sunny,94
-2023-11-29,boysLocker,dryMop,15,1967,00:04:39,1,0,no,no,17337,32,sunny,94
-2023-11-29,boysLocker,bathroom,16,72,00:04:08,2,0,no,no,17337,32,sunny,94
-2023-11-29,boysLocker,office,17,252,00:06:19,1,1,1 paperTowel,no,17337,32,sunny,94
-2023-11-29,class2,wetMop,18,768,00:04:42,2,0,no,no,17337,32,sunny,94
-2023-11-29,class3,wetMop,19,768,00:04:45,1,0,no,no,17337,32,sunny,94
-2023-11-29,stair2,wetMop,20,256,00:02:30,1,0,no,no,17337,32,sunny,94
-2023-11-29,stair1,sweep,21,192,00:05:33,6,1,no,no,17337,32,sunny,94
-2023-11-29,stair1,vacuum,22,18,00:02:22,7,0,no,no,17337,32,sunny,94
-2023-11-29,gym1,vacuum,23,18,00:03:28,2,0,no,no,17337,32,sunny,94
-2023-11-29,gym1,machine,24,5120,00:19:53,3,0,no,no,17337,32,sunny,94
-2023-11-29,downHall,machine,25,2336,00:12:23,2,0,no,no,17337,32,sunny,94
-2023-11-29,stair1,wetMop,26,192,00:02:46,2,0,no,no,17337,32,sunny,94
-2023-11-29,gym2,dryMop,27,4480,00:06:45,3,0,no,no,17337,32,sunny,94
-2023-11-29,gym2,machine,28,4480,00:15:52,2,1,no,no,17337,32,sunny,94
-2023-11-30,table,request,2,0,00:15:50,0,0,no,"request for 7 tables, brought to lobby from maintenance hallway",16000,41,sunny,90
-2023-11-30,boys,bathroom,3,132,00:09:01,2,1,no,no,16000,41,sunny,90
-2023-11-30,girls,bathroom,4,132,00:11:34,7,1,no,no,16000,41,sunny,90
-2023-11-30,gym1,dryMop,5,5120,00:07:41,3,0,no,no,16000,41,sunny,90
-2023-11-30,gym3,matSpray,6,1024,00:12:14,2,0,no,no,16000,41,sunny,90
-2023-11-30,gym2,dryMop,7,4480,00:05:49,2,0,no,no,16000,41,sunny,90
-2023-11-30,upHall,dryMop,8,2336,00:06:26,5,0,no,couldn't dust mop far hallway due to play,16000,41,sunny,90
-2023-11-30,copyRoom,all,9,192,00:01:06,1,0,no,no,16000,41,sunny,90
-2023-11-30,class1,all,10,1536,00:00:30,1,0,no,no,16000,41,sunny,90
-2023-11-30,class2,all,11,768,00:10:48,2,0,no,no,16000,41,sunny,90
-2023-11-30,class3,all,12,768,00:03:47,2,1,no,no,16000,41,sunny,90
-2023-11-30,girlsLocker,bathroom,13,94,00:00:35,1,0,no,no,16000,41,sunny,90
-2023-11-30,girlsLocker,office,14,166,00:01:27,1,0,no,no,16000,41,sunny,90
-2023-11-30,stair2,sweep,15,256,00:02:42,2,0,no,no,16000,41,sunny,90
-2023-11-30,boysLocker,bathroom,16,72,00:01:00,1,0,no,no,16000,41,sunny,90
-2023-11-30,boysLocker,office,17,252,00:04:59,1,0,no,no,16000,41,sunny,90
-2023-11-30,chair,return,18,0,00:01:27,1,1,no,moved cart of chairs back to the closet from the hallway,16000,41,sunny,90
-2023-11-30,stair2,wetMop,19,256,00:03:04,2,1,no,no,16000,41,sunny,90
-2023-11-30,stair1,sweep,20,192,00:06:36,6,1,no,no,16000,41,sunny,90
-2023-11-30,gym1,vacuum,21,18,00:03:58,2,0,no,no,16000,41,sunny,90
-2023-11-30,gym1,wetMop,22,437,00:02:30,2,0,no,no,16000,41,sunny,90
-2023-11-30,gym2,vacuum,23,18,00:01:34,1,0,no,no,16000,41,sunny,90
-2023-11-30,gym2,wetMop,24,437,00:02:35,1,0,no,no,16000,41,sunny,90
-2023-11-30,downHall,dryMop,25,2336,00:04:34,4,0,no,no,16000,41,sunny,90
-2023-11-30,stair1,vacuum,26,18,00:02:40,3,0,no,no,16000,41,sunny,90
-2023-11-30,upHall,machine,27,2336,00:18:01,4,0,no,paused timer while talking with coworkers,16000,41,sunny,90
-2023-11-30,stair1,wetMop,28,192,00:02:39,2,1,no,no,16000,41,sunny,90
-2023-12-01,upHall,dryMop,1,2336,00:10:23,6,0,no,no,18529,40,rain,83
-2023-12-01,upHall,spotMop,2,2336,00:03:46,5,0,no,no,18529,40,rain,83
-2023-12-01,downHall,dryMop,3,2336,00:06:54,4,0,no,moved cart back,18529,40,rain,83
-2023-12-01,boys,bathroom,4,132,00:09:41,3,1,1 toiletPaper,no,18529,40,rain,83
-2023-12-01,girls,bathroom,5,132,00:11:58,4,1,1 paperTowel 1 toiletPaper 1 clearBagBig,no,18529,40,rain,83
-2023-12-01,gym2,dryMop,6,4480,00:06:32,3,1,no,no,18529,40,rain,83
-2023-12-01,copyRoom,all,7,192,00:03:04,2,0,no,no,18529,40,rain,83
-2023-12-01,class1,all,8,1536,00:06:51,3,0,no,no,18529,40,rain,83
-2023-12-01,class2,all,9,768,00:09:49,3,0,no,no,18529,40,rain,83
-2023-12-01,class3,all,10,768,00:05:43,2,0,no,no,18529,40,rain,83
-2023-12-01,girlsLocker,office,11,166,00:01:59,1,0,1 blackBag,no,18529,40,rain,83
-2023-12-01,stair2,sweep,12,256,00:05:49,2,1,no,no,18529,40,rain,83
-2023-12-01,boysLocker,bathroom,13,72,00:03:42,2,0,no,no,18529,40,rain,83
-2023-12-01,boysLocker,office,14,252,00:03:56,1,0,no,no,18529,40,rain,83
-2023-12-01,stair1,sweep,15,192,00:07:30,6,1,no,no,18529,40,rain,83
-2023-12-01,gym1,dryMop,16,5120,00:06:39,3,0,no,no,18529,40,rain,83
-2023-12-01,gym2,wetMop,17,437,00:02:29,2,0,no,no,18529,40,rain,83
-2023-12-01,downHall,wetMop,18,2336,00:15:56,3,0,no,no,18529,40,rain,83
-2023-12-01,gym1,vacuum,19,18,00:02:41,2,0,no,no,18529,40,rain,83
-2023-12-01,stair1,vacuum,20,18,00:03:26,5,0,no,no,18529,40,rain,83
-2023-12-01,stair1,wetMop,21,192,00:03:44,4,1,no,no,18529,40,rain,83
-2023-12-01,gym1,machine,22,5120,00:25:28,3,1,no,no,18529,40,rain,83
+2023-11-29,boys,bathroom,1,132,00:10:22,3,1,1 paperTowel,clogged toilet,17337,32,clear,94
+2023-11-29,girls,bathroom,2,132,00:08:34,3,1,1 paperTowel,no,17337,32,clear,94
+2023-11-29,upHall,dryMop,3,2336,00:05:57,5,0,no,no,17337,32,clear,94
+2023-11-29,copyRoom,all,4,192,00:02:20,2,0,no,no,17337,32,clear,94
+2023-11-29,class1,all,5,1536,00:04:30,2,0,no,no,17337,32,clear,94
+2023-11-29,class2,all,6,768,00:15:02,3,0,no,no,17337,32,clear,94
+2023-11-29,class3,all,7,768,00:12:58,3,0,no,no,17337,32,clear,94
+2023-11-29,gym1,dryMop,8,5120,00:07:38,3,0,no,no,17337,32,clear,94
+2023-11-29,downHall,dryMop,9,2336,00:05:57,2,0,no,no,17337,32,clear,94
+2023-11-29,girlsLocker,dryMop,10,1704,00:03:21,1,0,no,no,17337,32,clear,94
+2023-11-29,girlsLocker,bathroom,11,94,00:00:57,1,0,no,no,17337,32,clear,94
+2023-11-29,girlsLocker,office,12,166,00:01:51,1,0,no,no,17337,32,clear,94
+2023-11-29,stair2,sweep,13,256,00:05:14,4,1,no,no,17337,32,clear,94
+2023-11-29,gym3,matRoll,14,1024,00:07:27,1,0,no,no,17337,32,clear,94
+2023-11-29,boysLocker,dryMop,15,1967,00:04:39,1,0,no,no,17337,32,clear,94
+2023-11-29,boysLocker,bathroom,16,72,00:04:08,2,0,no,no,17337,32,clear,94
+2023-11-29,boysLocker,office,17,252,00:06:19,1,1,1 paperTowel,no,17337,32,clear,94
+2023-11-29,class2,wetMop,18,768,00:04:42,2,0,no,no,17337,32,clear,94
+2023-11-29,class3,wetMop,19,768,00:04:45,1,0,no,no,17337,32,clear,94
+2023-11-29,stair2,wetMop,20,256,00:02:30,1,0,no,no,17337,32,clear,94
+2023-11-29,stair1,sweep,21,192,00:05:33,6,1,no,no,17337,32,clear,94
+2023-11-29,stair1,vacuum,22,18,00:02:22,7,0,no,no,17337,32,clear,94
+2023-11-29,gym1,vacuum,23,18,00:03:28,2,0,no,no,17337,32,clear,94
+2023-11-29,gym1,machine,24,5120,00:19:53,3,0,no,no,17337,32,clear,94
+2023-11-29,downHall,machine,25,2336,00:12:23,2,0,no,no,17337,32,clear,94
+2023-11-29,stair1,wetMop,26,192,00:02:46,2,0,no,no,17337,32,clear,94
+2023-11-29,gym2,dryMop,27,4480,00:06:45,3,0,no,no,17337,32,clear,94
+2023-11-29,gym2,machine,28,4480,00:15:52,2,1,no,no,17337,32,clear,94
+2023-11-30,table,request,2,0,00:15:50,0,0,no,"request for 7 tables, brought to lobby from maintenance hallway",16000,41,clear,90
+2023-11-30,boys,bathroom,3,132,00:09:01,2,1,no,no,16000,41,clear,90
+2023-11-30,girls,bathroom,4,132,00:11:34,7,1,no,no,16000,41,clear,90
+2023-11-30,gym1,dryMop,5,5120,00:07:41,3,0,no,no,16000,41,clear,90
+2023-11-30,gym3,matSpray,6,1024,00:12:14,2,0,no,no,16000,41,clear,90
+2023-11-30,gym2,dryMop,7,4480,00:05:49,2,0,no,no,16000,41,clear,90
+2023-11-30,upHall,dryMop,8,2336,00:06:26,5,0,no,couldn't dust mop far hallway due to play,16000,41,clear,90
+2023-11-30,copyRoom,all,9,192,00:01:06,1,0,no,no,16000,41,clear,90
+2023-11-30,class1,all,10,1536,00:00:30,1,0,no,no,16000,41,clear,90
+2023-11-30,class2,all,11,768,00:10:48,2,0,no,no,16000,41,clear,90
+2023-11-30,class3,all,12,768,00:03:47,2,1,no,no,16000,41,clear,90
+2023-11-30,girlsLocker,bathroom,13,94,00:00:35,1,0,no,no,16000,41,clear,90
+2023-11-30,girlsLocker,office,14,166,00:01:27,1,0,no,no,16000,41,clear,90
+2023-11-30,stair2,sweep,15,256,00:02:42,2,0,no,no,16000,41,clear,90
+2023-11-30,boysLocker,bathroom,16,72,00:01:00,1,0,no,no,16000,41,clear,90
+2023-11-30,boysLocker,office,17,252,00:04:59,1,0,no,no,16000,41,clear,90
+2023-11-30,chair,return,18,0,00:01:27,1,1,no,moved cart of chairs back to the closet from the hallway,16000,41,clear,90
+2023-11-30,stair2,wetMop,19,256,00:03:04,2,1,no,no,16000,41,clear,90
+2023-11-30,stair1,sweep,20,192,00:06:36,6,1,no,no,16000,41,clear,90
+2023-11-30,gym1,vacuum,21,18,00:03:58,2,0,no,no,16000,41,clear,90
+2023-11-30,gym1,wetMop,22,437,00:02:30,2,0,no,no,16000,41,clear,90
+2023-11-30,gym2,vacuum,23,18,00:01:34,1,0,no,no,16000,41,clear,90
+2023-11-30,gym2,wetMop,24,437,00:02:35,1,0,no,no,16000,41,clear,90
+2023-11-30,downHall,dryMop,25,2336,00:04:34,4,0,no,no,16000,41,clear,90
+2023-11-30,stair1,vacuum,26,18,00:02:40,3,0,no,no,16000,41,clear,90
+2023-11-30,upHall,machine,27,2336,00:18:01,4,0,no,paused timer while talking with coworkers,16000,41,clear,90
+2023-11-30,stair1,wetMop,28,192,00:02:39,2,1,no,no,16000,41,clear,90
+2023-12-01,upHall,dryMop,1,2336,00:10:23,6,0,no,no,18529,40,wet,83
+2023-12-01,upHall,spotMop,2,2336,00:03:46,5,0,no,no,18529,40,wet,83
+2023-12-01,downHall,dryMop,3,2336,00:06:54,4,0,no,moved cart back,18529,40,wet,83
+2023-12-01,boys,bathroom,4,132,00:09:41,3,1,1 toiletPaper,no,18529,40,wet,83
+2023-12-01,girls,bathroom,5,132,00:11:58,4,1,1 paperTowel 1 toiletPaper 1 clearBagBig,no,18529,40,wet,83
+2023-12-01,gym2,dryMop,6,4480,00:06:32,3,1,no,no,18529,40,wet,83
+2023-12-01,copyRoom,all,7,192,00:03:04,2,0,no,no,18529,40,wet,83
+2023-12-01,class1,all,8,1536,00:06:51,3,0,no,no,18529,40,wet,83
+2023-12-01,class2,all,9,768,00:09:49,3,0,no,no,18529,40,wet,83
+2023-12-01,class3,all,10,768,00:05:43,2,0,no,no,18529,40,wet,83
+2023-12-01,girlsLocker,office,11,166,00:01:59,1,0,1 blackBag,no,18529,40,wet,83
+2023-12-01,stair2,sweep,12,256,00:05:49,2,1,no,no,18529,40,wet,83
+2023-12-01,boysLocker,bathroom,13,72,00:03:42,2,0,no,no,18529,40,wet,83
+2023-12-01,boysLocker,office,14,252,00:03:56,1,0,no,no,18529,40,wet,83
+2023-12-01,stair1,sweep,15,192,00:07:30,6,1,no,no,18529,40,wet,83
+2023-12-01,gym1,dryMop,16,5120,00:06:39,3,0,no,no,18529,40,wet,83
+2023-12-01,gym2,wetMop,17,437,00:02:29,2,0,no,no,18529,40,wet,83
+2023-12-01,downHall,wetMop,18,2336,00:15:56,3,0,no,no,18529,40,wet,83
+2023-12-01,gym1,vacuum,19,18,00:02:41,2,0,no,no,18529,40,wet,83
+2023-12-01,stair1,vacuum,20,18,00:03:26,5,0,no,no,18529,40,wet,83
+2023-12-01,stair1,wetMop,21,192,00:03:44,4,1,no,no,18529,40,wet,83
+2023-12-01,gym1,machine,22,5120,00:25:28,3,1,no,no,18529,40,wet,83
 2023-12-05,downHall,dryMop,1,2336,00:04:45,2,0,no,no,22785,45,clear,48
 2023-12-05,boys,bathroom,2,132,00:08:29,3,0,no,no,22785,45,clear,48
 2023-12-05,girls,bathroom,3,132,00:09:46,3,1,no,no,22785,45,clear,48
@@ -100,24 +100,24 @@ Date,Area,Task,Task Number,Size,Duration,Dirt Level,Gloves,Supplies,Notes,Steps,
 2023-12-05,stair1,wetMop,22,192,00:04:00,3,0,no,no,22785,45,clear,48
 2023-12-05,gym2,wetMop,23,437,00:03:53,3,1,no,no,22785,45,clear,48
 2023-12-06,stair1,sweep,1,192,00:10:26,8,1,no,new broom & butler,
-2023-12-06,downHall,dryMop,2,2336,00:05:36,3,0,no,no,
-2023-12-06,boys,bathroom,3,132,00:07:54,2,0,no,no,
-2023-12-06,girls,bathroom,4,132,00:09:09,4,1,no,no,
-2023-12-06,upHall,dryMop,5,2336,00:12:48,5,1,no,no,
-2023-12-06,gym3,matSpray,6,1024,00:10:42,2,0,no,no,
-2023-12-06,gym2,dryMop,7,4480,00:09:12,3,0,no,no,
-2023-12-06,copyRoom,all,8,192,00:03:14,3,0,no,no,
-2023-12-06,class1,all,9,1536,00:03:48,2,0,no,no,
-2023-12-06,class2,all,10,768,00:16:52,4,0,no,no,
-2023-12-06,class3,all,11,768,00:07:14,2,1,no,no,
-2023-12-06,girlsLocker,sweep,12,1704,00:02:35,3,0,no,no,
-2023-12-06,girlsLocker,office,13,166,00:02:38,1,0,no,no,
-2023-12-06,boysLocker,sweep,14,1967,00:05:57,2,0,no,no,
-2023-12-06,boysLocker,bathroom,15,72,00:03:58,2,0,no,no,
-2023-12-06,boysLocker,office,16,252,00:06:25,2,1,no,no,
-2023-12-06,gym2,machine,17,437,00:20:47,3,0,no,no,
-2023-12-06,downHall,machine,18,2336,00:06:47,2,0,no,no,
-2023-12-06,gym1,machine,19,5120,00:25:45,4,1,no,no,
-2023-12-06,stair1,vacuum,20,18,00:01:25,4,0,no,no,
-2023-12-06,gym1,vacuum,21,18,00:03:14,4,0,no,no,
-2023-12-06,stair2,wetMop,22,192,00:04:48,8,1,no,no,
+2023-12-06,downHall,dryMop,2,2336,00:05:36,3,0,no,no,19171,41,wet,38
+2023-12-06,boys,bathroom,3,132,00:07:54,2,0,no,no,19171,41,wet,38
+2023-12-06,girls,bathroom,4,132,00:09:09,4,1,no,no,19171,41,wet,38
+2023-12-06,upHall,dryMop,5,2336,00:12:48,5,1,no,no,19171,41,wet,38
+2023-12-06,gym3,matSpray,6,1024,00:10:42,2,0,no,no,19171,41,wet,38
+2023-12-06,gym2,dryMop,7,4480,00:09:12,3,0,no,no,19171,41,wet,38
+2023-12-06,copyRoom,all,8,192,00:03:14,3,0,no,no,19171,41,wet,38
+2023-12-06,class1,all,9,1536,00:03:48,2,0,no,no,19171,41,wet,38
+2023-12-06,class2,all,10,768,00:16:52,4,0,no,no,19171,41,wet,38
+2023-12-06,class3,all,11,768,00:07:14,2,1,no,no,19171,41,wet,38
+2023-12-06,girlsLocker,sweep,12,1704,00:02:35,3,0,no,no,19171,41,wet,38
+2023-12-06,girlsLocker,office,13,166,00:02:38,1,0,no,no,19171,41,wet,38
+2023-12-06,boysLocker,sweep,14,1967,00:05:57,2,0,no,no,19171,41,wet,38
+2023-12-06,boysLocker,bathroom,15,72,00:03:58,2,0,no,no,19171,41,wet,38
+2023-12-06,boysLocker,office,16,252,00:06:25,2,1,no,no,19171,41,wet,38
+2023-12-06,gym2,machine,17,437,00:20:47,3,0,no,no,19171,41,wet,38
+2023-12-06,downHall,machine,18,2336,00:06:47,2,0,no,no,19171,41,wet,38
+2023-12-06,gym1,machine,19,5120,00:25:45,4,1,no,no,19171,41,wet,38
+2023-12-06,stair1,vacuum,20,18,00:01:25,4,0,no,no,19171,41,wet,38
+2023-12-06,gym1,vacuum,21,18,00:03:14,4,0,no,no,19171,41,wet,38
+2023-12-06,stair2,wetMop,22,192,00:04:48,8,1,no,no,19171,41,wet,38
