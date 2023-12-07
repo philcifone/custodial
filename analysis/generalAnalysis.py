@@ -26,22 +26,23 @@ axes[0, 0].set_xlabel('Area')
 axes[0, 0].set_ylabel('Time in minutes')
 
 # Plot 2b: Dirt levels per task
-df.groupby('Area')['Dirt Level'].mean().plot(ax=axes[1, 0], kind='bar', color='green')
-axes[1, 0].set_title('Dirt Levels per Task')
-axes[1, 0].set_xlabel('Area')
-axes[1, 0].set_ylabel('Dirt Level')
-#axes[1, 0].tick_params(axis='x', rotation=90)
+df.groupby('Task')['Dirt Level'].mean().plot(ax=axes[1, 0], kind='bar', color='green')
+axes[1, 0].set_title('Average Dirt Level per Task')
+axes[1, 0].set_xlabel('Task')
+axes[1, 0].set_ylabel('Average Dirt Level')
+axes[1, 0].tick_params(axis='x', rotation=45)  # Rotate x-axis labels for better visibility
 
-# Plot 3: Duration per square foot per Area
+
+# Plot 3: Duration per square foot per Task
 # Calculate duration per square foot
 df['Duration_per_sqft'] = df['Duration'] / df['Size']
 
 # Convert Timedelta to seconds
 df['Duration_per_sqft'] = df['Duration_per_sqft'].dt.total_seconds()
 # Actual Plot
-df.groupby('Area')['Duration_per_sqft'].mean().plot(kind='bar', ax=axes[0, 1], color='orange', legend=False)
-axes[0, 1].set_title(f'Average Duration per Square Foot per Area')
-axes[0, 1].set_xlabel('Area')
+df.groupby('Task')['Duration_per_sqft'].mean().plot(kind='bar', ax=axes[0, 1], color='orange', legend=False)
+axes[0, 1].set_title(f'Average Duration per Square Foot per Task')
+axes[0, 1].set_xlabel('Task')
 axes[0, 1].set_ylabel('Time in Seconds')
 
 # Plot 4: Total gloves used per day
