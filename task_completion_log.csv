@@ -205,3 +205,30 @@ Date,Area,Task,Task Number,Size,Duration,Dirt Level,Gloves,Supplies,Notes,Steps,
 2023-12-12,gym2,wetMop,26,437,00:02:38,3,0,no,no,21209,43,clear,0
 2023-12-12,stair1,vacuum,27,18,00:02:58,3,0,no,no,21209,43,clear,0
 2023-12-12,stair1,wetMop,28,192,00:03:14,3,0,no,no,21209,43,clear,0
+2023-12-13,gym1,dryMop,1,5120,00:05:22,8,0,no,very dirty & dusty (from firedrill?),21456,45,clear,0
+2023-12-13,downHall,dryMop,2,1696,00:04:58,5,0,no,no,21456,45,clear,0
+2023-12-13,boys,bathroom,3,132,00:10:18,6,0,1 paperTowel,no,21456,45,clear,0
+2023-12-13,girls,bathroom,4,132,00:08:49,4,1,no,no,21456,45,clear,0
+2023-12-13,upHall,dryMop,5,2336,00:13:44,6,0,no,moved hallway items,21456,45,clear,0
+2023-12-13,copyRoom,all,6,192,00:02:48,3,0,no,no,21456,45,clear,0
+2023-12-13,class1,all,7,1536,00:09:59,6,0,no,woodshop tools removed,21456,45,clear,0
+2023-12-13,gym2,dryMop,8,4480,00:07:04,3,0,no,no,21456,45,clear,0
+2023-12-13,gym3,matSpray,9,1024,00:12:22,3,0,no,no,21456,45,clear,0
+2023-12-13,class2,all,10,768,00:15:40,4,0,no,no,21456,45,clear,0
+2023-12-13,class3,all,11,768,00:08:09,3,1,no,no,21456,45,clear,0
+2023-12-13,girlsLocker,sweep,12,1704,00:01:17,2,0,no,no,21456,45,clear,0
+2023-12-13,girlsLocker,bathroom,13,94,00:03:50,3,0,no,no,21456,45,clear,0
+2023-12-13,girlsLocker,office,14,166,00:00:47,2,0,no,no,21456,45,clear,0
+2023-12-13,stair2,sweep,15,256,00:05:54,4,1,no,no,21456,45,clear,0
+2023-12-13,boysLocker,sweep,16,1967,00:03:25,3,1,no,no,21456,45,clear,0
+2023-12-13,boysLocker,bathroom,17,72,00:04:58,3,0,no,no,21456,45,clear,0
+2023-12-13,boysLocker,office,18,252,00:03:57,2,0,no,no,21456,45,clear,0
+2023-12-13,stair1,sweep,19,192,00:07:40,5,0,no,no,21456,45,clear,0
+2023-12-13,stair2,wetMop,20,256,00:03:34,3,0,no,no,21456,45,clear,0
+2023-12-13,stair1,vacuum,21,18,00:02:29,4,0,no,no,21456,45,clear,0
+2023-12-13,upHall,spotMop,22,2336,00:06:29,5,1,no,no,21456,45,clear,0
+2023-12-13,gym2,vacuum,23,18,00:02:07,3,0,no,no,21456,45,clear,0
+2023-12-13,gym2,machine,24,4480,00:25:44,3,0,no,includes 75% of downHall,21456,45,clear,0
+2023-12-13,gym1,vacuum,25,18,00:28,3,0,no,no,21456,45,clear,0
+2023-12-13,gym1,machine,26,5120,00:29:59,8,0,no,includes 25% of downHall,21456,45,clear,0
+2023-12-13,stair1,wetMop,27,192,00:03:14,3,1,no,no,21456,45,clear,0
